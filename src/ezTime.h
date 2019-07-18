@@ -180,6 +180,7 @@ namespace ezt {
 	time_t makeTime(const uint8_t hour, const uint8_t minute, const uint8_t second, const uint8_t day, const uint8_t month, const uint16_t year);
 	time_t makeTime(tmElements_t &tm);
 	bool minuteChanged();
+	bool hourChanged();
 	String monthShortStr(const uint8_t month);
 	String monthStr(const uint8_t month);
 	bool secondChanged();
